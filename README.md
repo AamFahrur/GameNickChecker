@@ -1,7 +1,7 @@
 # GameNickChecker
 Check Nickname Game By ID from API MauPedia.com
 
-Usage
+How Usage
 ---------
 ```php
 require('src/class.php');
