@@ -2,7 +2,10 @@
 /*
 Game Nickname Checker
 Full API Documentation
+https://maupedia.com
 https://member.maupedia.com/page/api/game-validation
+Lets Disqus:
+https://forum.maupedia.com
 Will Update More Soon
 */
 class NicknameChecker
@@ -71,6 +74,61 @@ class NicknameChecker
     public function Memories($id)
     {
         return $this->connectPost(['game' => 'Memories', 'id' => $id]);
+    }
+
+    public function PointBlank($id)
+    {
+        return $this->connectPost(['game' => 'PointBlank', 'id' => $id]);
+    }
+
+    public function CodeAtma($id)
+    {
+        return $this->connectPost(['game' => 'CodeAtma', 'id' => $id]);
+    }
+
+    public function AtlanticaOnline($id)
+    {
+        return $this->connectPost(['game' => 'AtlanticaOnline', 'id' => $id]);
+    }
+
+    public function LostSagaOrigin($id, $zone)
+    {
+        return $this->connectPost(['game' => 'LostSagaOrigin', 'id' => $id, 'zone' => $zone]);
+    }
+
+    public function PerfectWorld($id, $zone)
+    {
+        return $this->connectPost(['game' => 'PerfectWorld', 'id' => $id, 'zone' => $zone]);
+    }
+
+    public function RagnarokForeverLove($id, $zone)
+    {
+        return $this->connectPost(['game' => 'RagnarokForeverLove', 'id' => $id, 'zone' => $zone]);
+    }
+
+    public function RFClassic($id, $zone)
+    {
+        return $this->connectPost(['game' => 'RFClassic', 'id' => $id, 'zone' => $zone]);
+    }
+
+    public function RFRemastered($id, $zone)
+    {
+        return $this->connectPost(['game' => 'RFRemastered', 'id' => $id, 'zone' => $zone]);
+    }
+
+    public function RagnarokXNextGeneration($id)
+    {
+        return $this->connectPost(['game' => 'RagnarokXNextGeneration', 'id' => $id]);
+    }
+
+    public function RagnarokRetro($id)
+    {
+        return $this->connectPost(['game' => 'RagnarokRetro', 'id' => $id]);
+    }
+
+    public function AngelSquad($id)
+    {
+        return $this->connectPost(['game' => 'AngelSquad', 'id' => $id]);
     }
 
     //Update more soon
