@@ -137,7 +137,7 @@ class NicknameChecker
     {
         $end_point = 'https://api.maupedia.com/v1/game-validation';
         $postdata['key'] = $this->key;
-        $postdata['sign'] = md5($this->id . $this->key);
+        $postdata['sign'] = sha1($this->id . $this->key);
         $postdata['secret'] = $this->secret;
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $end_point);
