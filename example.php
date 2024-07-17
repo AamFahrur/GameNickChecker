@@ -3,9 +3,9 @@
 Game Nickname Checker
 Full API Documentation
 https://maupedia.com
-https://member.maupedia.com/page/api/game-validation
+https://maupedia.com/page/api/game-validation
 Lets Disqus:
-https://forum.maupedia.com
+https://maupedia.com
 Will Update More Soon
 */
 header('Content-Type: application/json');

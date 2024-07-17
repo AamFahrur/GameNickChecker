@@ -3,9 +3,9 @@
 Game Nickname Checker
 Full API Documentation
 https://maupedia.com
-https://member.maupedia.com/page/api/game-validation
+https://maupedia.com/page/api/game-validation
 Lets Disqus:
-https://forum.maupedia.com
+https://maupedia.com
 Will Update More Soon
 */
 class NicknameChecker
@@ -135,7 +135,7 @@ class NicknameChecker
 
     public function connectPost($postdata, $reqout = 'decode')
     {
-        $end_point = 'https://api.maupedia.com/v1/game-validation';
+        $end_point = 'https://maupedia.com/api/game-validation';
         $postdata['key'] = $this->key;
         $postdata['sign'] = sha1($this->id . $this->key);
         $postdata['secret'] = $this->secret;
